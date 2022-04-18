@@ -22,8 +22,6 @@ let finalWord = (function aa() {
 
     while(parseInt(palavras.length) > 6) {
         palavras = pickWord()
-        //preloader.style.display = 'flex'
-        console.log(palavras)
     }
 
     //Loading screen
@@ -37,9 +35,6 @@ let finalWord = (function aa() {
     return palavras
 
 }())
-
-
-console.log(`A palavra final é ${finalWord}`)
 
 //Remove special alphanumeric characters
 function specialAlphanumeric(specialChar){

@@ -108,7 +108,7 @@ body {
 
         h1 {
             font-family: $base-font;
-            font-size: 1.6em;
+            font-size: 1.4em;
             font-weight: 900;
             letter-spacing: 0.02em;
             text-transform: uppercase;
@@ -122,6 +122,8 @@ body {
         border-radius: 50px;
         padding: 2px;
         background-color: $bg-color;
+
+        cursor: pointer;
 
         .switch-circle {
             width: 30px;
@@ -264,6 +266,12 @@ body {
 }
 
 @media screen and (min-width:520px){
+
+    .header-wrapper {
+        h1 {
+            font-size: 1.6em;
+        }
+    }
     
     #word {
         .dscv-letter {
@@ -317,7 +325,7 @@ body {
 
             font-size: 3em;
         }
-        
+
         .right-letter {
             background-color: $right-color;
             border: none;
