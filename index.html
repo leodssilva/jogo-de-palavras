@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Jogo de palavras</title>
+</head>
+<body>
+    
+    <div id="loading">
+        <p>Carregando...</p>
+    </div>
+
+    <main id="main">
+
+        <div class="header">
+            <div class="header-wrapper">
+                <h1>Jogo de palavras</h1>
+                <div id="switch">
+                    <div id="switch-circle" class="switch-circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="word-container">
+            <h3 id="finished-message">Parabéns! <span class="span"></span></h3>
+
+            <div id="word">
+            </div>
+
+            <button id="refresh">Nova palavra</button>
+        </div>
+
+        <div id="keyboard">
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
