@@ -289,7 +289,6 @@ body {
         .dscv-letter {
             width: 72px;
             height: 72px;
-            border: solid 6px $main-color;
 
             font-size: 3em;
         }
@@ -310,7 +309,20 @@ body {
 
 @media screen and (min-width:720px){
 
+    #word {
+        .dscv-letter {
+            width: 72px;
+            height: 72px;
+            border: solid 6px $main-color;
 
+            font-size: 3em;
+        }
+        
+        .right-letter {
+            background-color: $right-color;
+            border: none;
+        }
+    }
 
     button {
         font-size: 1.6em;
@@ -344,11 +356,9 @@ body {
     }
     
     #word {
-    
         .dscv-letter {
             width: 72px;
             height: 72px;
-            border: solid 6px $main-color;
     
             font-size: 3em;
         }

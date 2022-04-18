@@ -337,7 +337,6 @@ body {
   #word .dscv-letter {
     width: 72px;
     height: 72px;
-    border: solid 6px #857b9b;
     font-size: 3em;
   }
   #keyboard {
@@ -351,6 +350,16 @@ body {
 }
 
 @media screen and (min-width: 720px) {
+  #word .dscv-letter {
+    width: 72px;
+    height: 72px;
+    border: solid 6px #857b9b;
+    font-size: 3em;
+  }
+  #word .right-letter {
+    background-color: #c76e21;
+    border: none;
+  }
   button {
     font-size: 1.6em;
   }
@@ -379,7 +388,6 @@ body {
   #word .dscv-letter {
     width: 72px;
     height: 72px;
-    border: solid 6px #857b9b;
     font-size: 3em;
   }
 }
